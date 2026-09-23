@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- internal javaScript -->
+    <script>
+        //  in ra màn hình
+        document.writeln("hello world!<br>");
+
+        // khai báo biến
+        var name = "NHI <br>";
+        document.writeln(name);
+        name = "NHUNG<br>";
+        document.writeln(name);
+
+        var year= 2026;
+        document.writeln(year);
+        //Phep cong//
+       var sothunhat = 10;
+        var sothuhai =5;
+        var ketQua =0;
+        //cong+//
+        document.writeln( "<br>ketQua sothu1+ketQua sothu2 la:");
+        ketQua= sothunhat+sothuhai;
+        document.writeln(ketQua);
+        //tru-//
+        document.writeln( "<br>ketQua sothu1-ketQua sothu2 la:");
+        ketQua= sothunhat-sothuhai;
+        document.writeln(ketQua);
+        //nhan
+        document.writeln( "<br>ketQua sothu1*ketQua sothu2 la:");
+        ketQua= sothunhat*sothuhai;
+        document.writeln(ketQua);
+        //chia
+        document.writeln( "<br>ketQua sothu1/ketQua sothu2 la:");
+        ketQua= sothunhat/sothuhai;
+        document.writeln(ketQua);
+        //chia %
+        document.writeln( "<br>ketQua sothu1%ketQua sothu2 la:");
+        ketQua= sothunhat%sothuhai;
+        document.writeln(ketQua);
+
+        //++
+        document.writeln("<br>");
+        document.writeln(++sothunhat);
+        // document.writeln("<br>");
+        // document.writeln(sothunhat++);
+        //--
+        document.writeln("<br>");
+        document.writeln(--sothunhat );
+
+        // +=
+        sothunhat += sothuhai;
+        document.writeln(sothunhat);
+
+        //-=
+        sothunhat -= sothuhai;
+        document.writeln(sothunhat);
+
+        var ho = "NGUYEN";
+        document.writeln( "<br>"+ho+" "+name);
+        document.writeln("<br>");
+        document.writeln(ho.length);
+
+        // kiem tra kieu du lieu cua bien
+        document.writeln(typeof(ho));
+        //
+         document.writeln("<br>");
+        var hovaten = "tran thi yen NHI";
+        document.writeln(hovaten.indexOf("N"));
+         document.writeln("<br>");
+
+        document.writeln(hovaten.includes("n"));
+         document.writeln("<br>");
+        document.writeln(hovaten.startsWith("tran"));
+        // kiemtra
+        document.writeln("<br>");
+        //thay the ki tu
+        document.write(hovaten.replace("tran","nguyen"));
+                 document.writeln("<br>");
+        document.write(hovaten.toUpperCase());
+                document.writeln("<br>");   
+        document.write(hovaten.toLocaleLowerCase());
+
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
