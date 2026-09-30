@@ -85,7 +85,113 @@
         document.write(hovaten.toUpperCase());
                 document.writeln("<br>");   
         document.write(hovaten.toLocaleLowerCase());
+         
+        //Date
+        var homnay =new Date();
+        document.writeln("<br>");
+        document.write(homnay);
+        //
+        var ngay =new Date("8/6/2026");
+         document.writeln("<br>");
+        document.write(ngay);
+        //
+        var namnay = homnay.getFullYear();
+        document.writeln("<br>");
+        document.write(namnay);
 
+        var thangnay = homnay.getMonth();
+        document.writeln("<br>");
+        document.write(thangnay);
+
+        var ngayhomnay = homnay.getDate();
+        document.writeln("<br>");
+        document.write(ngayhomnay);
+     
+        var thuhomnay = homnay.getDay();
+         document.writeln("<br>");
+        document.write(thuhomnay);
+    
+        document.writeln("<br>");
+        document.writeln("<br> Hôm nay là thứ " + ++thuhomnay + " ngày " + ngayhomnay + " tháng " + ++thangnay + " năm " + namnay);
+
+        //mảng
+        var mangso= [1,2,3,4,5];
+        document.writeln("<br>");
+        document.writeln(mangso[2]);
+        document.writeln("<br>");
+        document.writeln(mangso.length);
+       
+        document.writeln("<br>");
+        var mangten=["nhi","nhung","dung"]
+        document.writeln(mangten[2]);
+        
+        document.writeln("<br>");
+        var mang= [1,2,3,4,5,"nhi","nhung","dung"];
+        document.writeln(mang[5]);
+
+        var d = mang.concat(mangso,mangten);
+         document.writeln("<br>");
+         //"-" các phần tử trong mảng
+        //  document.writeln(d.join("-"));
+         //in ra phần tử cuối cùng
+        //  document.writeln(d.pop());
+        d.push("duy")
+         document.writeln(d);
+         document.writeln("<br>");
+         document.writeln(mangso.reverse());
+         document.writeln("<br>");
+         //object
+        var thongtinsinhvien ={
+            ten: "tran thi yen nhi",
+            namsinh:2006,
+            quequan:{
+                thanhpho:"nam dinh",
+                huyen:"trực ninh"
+            }
+        };
+        //in ra ten
+        document.write(thongtinsinhvien.ten);
+        document.writeln("<br>");
+        //in ra ten que tp
+        document.writeln(thongtinsinhvien.quequan.thanhpho);
+        tuoi = namnay-thongtinsinhvien.nansinh;
+        thongtinsinhvien.tuoi=tuoi;
+        // console.log(thongtinsinhvien);
+        //boolean:true nam/ false nu
+        thongtinsinhvien.gioitinh = false;
+
+        var danhsach=[
+            {}
+         
+        ]
+        console.log(danhsach);
+
+        //== != ><
+        //=== so sanhs ca gia tri va du lieu
+        var so1= 5;
+        var so2= 10;
+        document.writeln("<br>");
+        document.writeln(so1 !==so2);
+
+        if(thuhomnay>=7){
+            document.writeln("cuoi tuan");
+        
+        }
+        else if(thuhomnay==6){
+            document.writeln("sapws ddc ngu");
+        }
+
+        else{
+            document.writeln("di hoc");
+        }
+        document.writeln("<br>");
+        //kiem tra so chan le
+        var so=20001
+        if(so%2==0){
+          document.writeln(so+"sochan");
+        }else{
+             document.writeln(so+"sole");
+        }
     </script>
     <script src="script.js"></script>
 </body>
