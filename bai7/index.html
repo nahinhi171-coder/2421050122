@@ -186,12 +186,75 @@
         }
         document.writeln("<br>");
         //kiem tra so chan le
-        var so=20001
-        if(so%2==0){
-          document.writeln(so+"sochan");
-        }else{
-             document.writeln(so+"sole");
+        var so="200000000000000001";
+        var doDai = so.length;
+        var soCuoiCung = so[doDai-1];
+        document.writeln("<br>");
+        //  document.write(soCuoiCung);
+        document.write(doDai);
+        // if(so%2==0){
+        //   document.writeln(so+"sochan");
+        // }else{
+        //      document.writeln(so+"sole");
+        // }
+        // switch  case
+        var d= new Date();
+        var theDay =d.getDay();
+        switch (theDay){
+        case 5:
+            document.write("finally friday");
+            break;
+        case 6:
+            document.write("Super Saturday");
+            break;
+        case 0:
+            document.write("Sleepy Sunday");
+            break;
+        default:
+            document.write("Im looking fordword to this weekend");
         }
+        
+        // for (var index = 1;index<= 1000; index++){
+        //     document.writeln("<br>");
+        //     document.writeln("quang anh xl"+ index);
+        // }
+        // mang var mang= [1,2,3,4,5,"nhi","nhung","dung"];
+        for (var i = 0; i < mang.length; i++) {
+    if (isNaN(mang[i])==true) {
+        document.writeln("<br>");
+        document.writeln("xin chao" +mang[i]);
+    }
+}
+      //while
+       var i=0;
+      while(i<=10){
+        document.writeln("The number is"+i);
+         document.write("<br />");
+         i=i+1;
+      }  
+     //do while
+     var j =0;
+     do{
+         document.writeln("The number is"+j);
+         document.write("<br />");
+         j=j+1;
+     }while(j<=10)
+
+      //popup boxes
+      alert("hello");
+
+       var r =confirm("press a button")
+       if (r==true){
+         document.writeln("You pressed OK!");
+       }
+       else{
+         document.writeln("You pressed cancel!");
+       }
+       var r=prompt("Nhap vao ho ten","nhap ten o day")
+       document.writeln(r);
+
+
+       
     </script>
     <script src="script.js"></script>
 </body>

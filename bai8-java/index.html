@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //fucntion
+        //ko tham so
+        function sayHello(){
+            document.writeln("Hello");
+
+        }
+        //goi ham de hien thi
+        sayHello();
+        sayHello();
+        sayHello();
+
+        //co tham so
+    function sayHello2(ten){
+        document.writeln("<br> Xin Chao ban "+ten)
+    }
+
+    sayHello2("nhi");
+     sayHello2("nhung");
+      sayHello2("dung");
+
+      // Hàm chuyên nhận 2 số và trả về tổng
+// function tinhTong(a, b) {
+//     return a + b;
+// }
+
+// // Lấy dữ liệu nhập vào từ người dùng
+// var num1 = Number(prompt("Nhập số thứ nhất:"));
+// var num2 = Number(prompt("Nhập số thứ hai:"));
+
+// // Kiểm tra tính hợp lệ trước khi tính
+// if (!isNaN(num1) && !isNaN(num2)) {
+//     var ketQua = tinhTong(num1, num2);
+//     document.writeln("Tổng của " + num1 + " và " + num2 + " là: " + ketQua);
+// } else {
+//     document.writeln("Giá trị nhập vào không phải là số hợp lệ!");
+// }
+
+function tinhtong(a,b){
+    if(isNaN(a) ==false && isNaN(b) ==false){
+        document.write(a+b);
+    }
+    var sothunhat = prompt("Nhập số thứ 1","");
+    var sothuhai = prompt("Nhập số thứ 2","");
+    tinhtong(sothunhat,sothuhai);
+}
+
+//baitapvenhaso2
+//viet ham tinh diem chu dua tren 3 dau diem (ABC)
+//tong A*0.6+B*0.3+C*0,1=> diem chu tuong ung
+    </script>
+</body>
+</html>
