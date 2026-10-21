@@ -2,30 +2,100 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
+    <div>
+        Nhap diem a:<input id="diema" type="number">
+    </div>
+        <div>
+        Nhap diem b:<input id="diemb" type="number">
+    </div>
+    <div>
+        Nhap diem c:<input id="diemc" type="number">
+    </div>
+    
+    <div>
+        <button onclick="tinhDiem()">Tinh Diem</button>
+    </div>
+    <div>
+        ket qua: <input id="ketqua" type="text">
+    </div>
+    
+    <div>
+        nam sinh:<input id="namsinh" type="number">
+    </div>
+    
+    <div>
+        <button onclick="tinhtuoi()">Tinh tuoi</button>
+    </div>
+    <div>
+        tuoi: <input id="tuoi" type="number">
+    </div>
     <script>
+       function tinhtuoi() {
+        var namnay= new Date(). getFullyear();
+        var namsinh = parseFloat( document.getElementById("namsinh").value);
+        var tuoi =namnay-namsinh;
+        document.getElementById("tuoi").value= tuoi(x);
+
+       }
+
+
+    
+        function tinhDiem() {
+         var a = parseFloat( document.getElementById("diema").value);
+         var b = parseFloat(document.getElementById("diemb").value);
+         var c =parseFloat (document.getElementById("diemc").value);
+
+        //  document.write("diem a nhap vao la:" +a);
+        //  document.write("<br>diem b nhap vao la:" +b);
+        //  document.write("<br>diem c nhap vao la:" +c);
+
+        // tinhDiemChu(a,b,c);
+
+        document.getElementById("ketqua").value= tinhDiemChu(a,b,c);
+        }
+        function tinhDiemChu(a, b, c) {
+                var tong = a * 0.6 + b * 0.3 + c * 0.1;
+                var kq = "";
+                if (tong >= 0 && tong < 4) {
+                    kq = "F";
+                } else if (tong >= 4 && tong < 5) {
+                    kq = "D";
+                } else if (tong >= 5 && tong < 7) {
+                    kq = "C";
+                } else if (tong >= 7 && tong < 8){
+                    kq = "B";
+                } else if (tong >= 8 && tong <= 10) {
+                    kq = "A";
+                } else {
+                    kq = "Điểm không hợp lệ!"
+                }
+                return kq;
+            }
+
+
         //fucntion
         //ko tham so
-        function sayHello(){
-            document.writeln("Hello");
+        // function sayHello(){
+        //     document.writeln("Hello");
 
-        }
-        //goi ham de hien thi
-        sayHello();
-        sayHello();
-        sayHello();
+        // }
+        // //goi ham de hien thi
+        // sayHello();
+        // sayHello();
+        // sayHello();
 
         //co tham so
     function sayHello2(ten){
         document.writeln("<br> Xin Chao ban "+ten)
     }
 
-    sayHello2("nhi");
-     sayHello2("nhung");
-      sayHello2("dung");
+    // sayHello2("nhi");
+    //  sayHello2("nhung");
+    //   sayHello2("dung");
 
       // Hàm chuyên nhận 2 số và trả về tổng
 // function tinhTong(a, b) {
@@ -57,6 +127,15 @@ function tinhtong(a,b){
 //viet ham tinh diem chu dua tren 3 dau diem (ABC)
 //tong A*0.6+B*0.3+C*0,1=> diem chu tuong ung
 
+//chuyển chuỗi thành số
+// parselnt("42");
+// parselnt("42.33");
+// parsefloat("42.33");
+// 3+3+parselnt("3")
+
+
+
+    
     </script>
 </body>
 </html>
