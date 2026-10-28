@@ -22,25 +22,28 @@
     <div>
         ket qua: <input id="ketqua" type="text">
     </div>
-    
-    <div>
-        nam sinh:<input id="namsinh" type="number">
-    </div>
-    
-    <div>
-        <button onclick="tinhtuoi()">Tinh tuoi</button>
-    </div>
-    <div>
-        tuoi: <input id="tuoi" type="number">
-    </div>
-    <script>
-       function tinhtuoi() {
-        var namnay= new Date(). getFullyear();
-        var namsinh = parseFloat( document.getElementById("namsinh").value);
-        var tuoi =namnay-namsinh;
-        document.getElementById("tuoi").value= tuoi(x);
 
-       }
+    
+    <div>TINH TUOI</div>
+    <div>
+        Nhập năm sinh <input id="namSinh" type="number">
+    </div>
+    <div>
+        <button onclick="tinhTuoi()">Tính tuổi</button>
+    </div>
+    <div>
+        Tuổi của bạn là <input id="tuoi" typr="number">
+    </div>
+
+    <script>
+       function tinhTuoi(){
+            var namSinh=parseFloat(document.getElementById("namSinh").value);
+            var homNay=new Date();
+            var namNay=homNay.getFullYear();
+            tuoii=namNay-namSinh;
+            document.getElementById("tuoi").value = tuoii;
+        }
+
 
 
     

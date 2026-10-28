@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       img{
+        width:20%;
+       }
+       .khung{
+        width:100%;
+        text-align:center;
+       }
+       .chuc-nang{
+        justify-content:center;
+       }
+    </style>
+</head>
+<body>
+    <div class="khung">
+        <h1 class="che-do">che do sang</h1>
+        <img  class="anh" src="../anh/mattroi.png">
+        <div class="chuc-nang"></div>
+        <div>
+            <button onclick="doichedo()">Doi che do</button>
+        </div>
+    </div>
+    <script>
+        //chedo (boolean: true:sang / fale:toi)
+        var chedo = true;
+    function doichedo(){
+        if (chedo == true) {
+            document.getElementsByTagName("body")[0].style = "background-color: black"
+        document.getElementsByClassName("che-do")[0].style ="color:white"
+        document.getElementsByClassName("che-do")[0].innerHTML ="che do toi"
+        document.getElementsByTagName("img")[0].src="../anh/mattrang.png"
+        chedo = false;
+        }
+        else{
+        document.getElementsByTagName("body")[0].style = "background-color: white"
+        document.getElementsByClassName("che-do")[0].style ="color:black"
+        document.getElementsByClassName("che-do")[0].innerHTML ="che do sang"
+        document.getElementsByTagName("img")[0].src="../anh/mattroi.png"
+        chedo = true;
+        }
+        
+    }
+    </script>
+</body>
+</html>
