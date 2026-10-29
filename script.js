@@ -43,146 +43,194 @@ var danhSachPhim=[
 },
 {
     id:6,
-    ten:"Gấu đỏ",
+    ten:"BỐ GIÀ",
     thoiLuong:20,
-    banner:"../anh/anh6.jpg",
-    trailer:"https://www.youtube.com/embed/m55GZxE-u_c?si=R8Cvwq91edqt5uOF" ,
+    banner:"netfix/BỐ GIÀ.jpg",
+    trailer:"https://www.youtube.com/embed/oA-BhGNK7qw?si=vLL1mRu17WFe-L5x",
 },
 {
     id:7,
-    ten:"Shin cậu bé bút chì",
+    ten:"CẬU ÚT CẬU CON CÚC",
     thoiLuong:20,
-    banner:"../anh/anh1.jpg",
-    trailer:"https://www.youtube.com/embed/1sHNOi76YBg?si=hcnA-n28gNyf0YdT",
+    banner:"netfix/CẬU ÚT CẬU CON CÚC.jpg",
+    trailer:"https://www.youtube.com/embed/orvlp8ikMsA?si=5RDYWSg_ZZlVYTXJ",
 },
 {
     id:8,
-    ten:"Totoro",
+    ten:"CHUYẾN XE BÁ ĐẠO",
     thoiLuong:15,
-    banner:"../anh/anh2.jpg",
-    trailer:"https://www.youtube.com/embed/bpyQ-jmikEI?si=3VjWKRdaLHYBiAjC",
+    banner:"netfix/CHUYẾN XE BÁ ĐẠO.jpg",
+    trailer:"https://www.youtube.com/embed/OnilE6u2kcM?si=ZYkdXe2pwmvsZ61n",
 },
 {
     id:9,
-    ten:"Vùng đất Linh Hồn",
+    ten:"HẺM CỤT",
     thoiLuong:15,
-    banner:"../anh/anh3.jpg",
-    trailer:"https://www.youtube.com/embed/hC6sFdvnPRo?si=NCN_BqzZS8m4amK_" ,
+    banner:"netfix/HẺM CỤT.jpg",
+    trailer:"https://www.youtube.com/embed/TnMrrg9ssXA?si=RJq4mfvzG9bZ-pJA" ,
 },
 {
     id:10,
-    ten:"Vua hải tặc",
+    ten:"Những kẻ lừa đảo siêu đẳng",
     thoiLuong:15,
-    banner:"../anh/anh4.jpg",
-    trailer:"https://www.youtube.com/embed/7Ofaxk4kquQ?si=dXiEAwhHedxtuh3w",
+    banner:"netfix/Những kẻ lừa đảo siêu đẳng.jpg",
+    trailer:"https://www.youtube.com/embed/UK3fwflxR0k?si=YmwDk9xhEaGFihCV",
 },
 {
     id:11,
-    ten:"Doremon",
+    ten:"CÔNG CHÚA ORI",
     thoiLuong:15,
-    banner:"../anh/anh5.jpg",
-    trailer:"https://www.youtube.com/embed/KyaRQtMUPtU?si=_aPAS55X0L21Fdgb",
+    banner:"netfix/CÔNG CHÚA ORI.jpg",
+    trailer:"https://www.youtube.com/embed/7zOVy9zGstw?si=2aysUWcD_gYWqi01" ,
 },
 {
     id:12,
-    ten:"Songonku",
+    ten:"Shin - Cậu Bé Bút Chì",
     thoiLuong:15,
-    banner:"../anh/anh6.jpg",
-    trailer:"https://www.youtube.com/embed/AIJ-Mux94j8?si=unCzwXcRYHr0bFt-",
+    banner:"netfix/Shin - Cậu Bé Bút Chì-hoathinh.jpg",
+    trailer:"https://www.youtube.com/embed/zKF4436nClc?si=LYvzgQ19XTto5HEh" ,
 },
+
 {
     id:13,
-    ten:"Monsters University",
+    ten:"doremon",
     thoiLuong:15,
-    banner:"../anh/anh1.jpg",
-    trailer:"https://www.youtube.com/embed/QBHoucHUZJ4?si=mTjpMSm4aWNDVkXC" ,
+    banner:"netfix/doremon.jpg",
+    trailer:"https://www.youtube.com/embed/OiGgkXJr9ns?si=qS4u-SCoD1WdkxPN" ,
 },
 {
     id:14,
-    ten:"Robo Trái cây",
+    ten:"Những Chú Cừu Thông Minh",
     thoiLuong:15,
-    banner:"../anh/anh2.jpg",
-    trailer:"https://www.youtube.com/embed/TJl08_dOZHI?si=TIbouQd6NK_DlYUw" ,
+    banner:"netfix/Những Chú Cừu Thông Minh.jpg",
+    trailer:"https://www.youtube.com/embed/RE_AhUD2Bsw?si=jWEOcJnJCtQRe6FU"  ,
 },
 {
     id:15,
-    ten:"Con đầu to bố đầu nhỏ",
+    ten:"Xin Chào Jadoo",
     thoiLuong:15,
-    banner:"../anh/anh3.jpg",
-    trailer:"https://www.youtube.com/embed/V8csym8_aUI?si=VpCrfOmzFJwyNJ--" ,
+    banner:"netfix/Xin Chào Jadoo.jpg",
+    trailer:"https://www.youtube.com/embed/qn3-ImTDcno?si=BCNG1o2Z5VTD9yhE",
 },
+
 {
     id:16,
-    ten:"Choi Jadoo",
+    ten:"mai",
     thoiLuong:15,
-    banner:"../anh/anh4.jpg",
-    trailer:"https://www.youtube.com/embed/xpARGiahWw8?si=4c-Yua3sihlJ_mGp" ,
+    banner:"netfix/mai.jpg",
+    trailer:"https://www.youtube.com/embed/gAxteW7CulI?si=ssexo3w1FB4O4y3g" ,
 },
 {
-    id:17,ten:"Gấu đần",
+    id:17,
+    ten:"total dhamaaln",
     thoiLuong:15,
-    banner:"../anh/anh5.jpg",
-    trailer:"https://www.youtube.com/embed/ISjEz1FIetc?si=JhMFRQQnKJzMf_2X",
+    banner:"netfix/total dhamaal.jpg",
+    trailer:"https://www.youtube.com/embed/yz3ifaaNDhk?si=sgeuzRTek8RZJVmp" ,
 },
 {
     id:18,
-    ten:"Nữ hoàng băng giá",
+    ten:"xóm trọ 3d",
     thoiLuong:15,
-    banner:"../anh/anh6.jpg",
-    trailer:"https://www.youtube.com/embed/ejP8bUTHg2I?si=zO63Ai7N4guaw-rt" ,
+    banner:"netfix/xóm trọ 3d.jpg",
+    trailer:"https://www.youtube.com/embed/3xWJJNUxuvw?si=sihJrUDR0RmuaUPn",
 },
 {
     id:19,
-    ten:"Kungfu Panda",
+    ten:"TRÁI TIM CỦA THIÊN THẦN",
     thoiLuong:15,
-    banner:"../anh/anh1.jpg",
-    trailer:"https://www.youtube.com/embed/vFqdKRHJoRA?si=lsJRt3OlZr2Bjccu",
+    banner:"netfix/TRÁI TIM CỦA THIÊN THẦN.jpg",
+    trailer:"https://www.youtube.com/embed/oebT2BMQswY?si=2Bsa3rIGexp5Arca" ,
+},
+{
+    id:20,
+    ten:"Yêu Em",
+    thoiLuong:15,
+    banner:"netfix/Yêu Em.jpg",
+    trailer:"https://www.youtube.com/embed/cMhwpvYILFw?si=iToDrc7ol1LtWf-s" ,
+},
+{
+    id:21,
+    ten:"BA ĐƯỜNG LUÂN HỒI",
+    thoiLuong:15,
+    banner:"netfix/BA ĐƯỜNG LUÂN HỒI.jpg",
+    trailer:"https://www.youtube.com/embed/LGL2Jb1M8qU?si=6erK1e3rx-quuJrr"  ,
+},
+{
+    id:22,
+    ten:"CHỊ ĐẠI RA TÙ",
+    thoiLuong:15,
+    banner:"netfix/CHỊ ĐẠI RA TÙ.jpg",
+    trailer:"https://www.youtube.com/embed/d0GT57-RgCs?si=KCALgKX-6jQ5KpMp"  ,
+},
+{
+    id:23,
+    ten:"CHIẾN ĐỘI MỸ NHÂN NGƯ",
+    thoiLuong:15,
+    banner:"netfix/CHIẾN ĐỘI MỸ NHÂN NGƯ.jpg",
+    trailer:"https://www.youtube.com/embed/d0lO7ggoLz0?si=N51rGgUMmJS8dZ8P" ,
+},
+{
+    id:24,
+    ten:"Hồ Sơ Nam Bộ",
+    thoiLuong:15,
+    banner:"netfix/Hồ Sơ Nam Bộ.jpg",
+    trailer:"https://www.youtube.com/embed/ZSdYMoZmL_Q?si=im67WOAOhYIfaNJA",
+},
+{
+    id:25,
+    ten:"HOÀNG ĐẾ TRONG TÙ",
+    thoiLuong:15,
+    banner:"netfix/HOÀNG ĐẾ TRONG TÙ.jpg",
+    trailer:"https://www.youtube.com/embed/WedpH6Cm34M?si=jBk9VLBGGL-6TWOW" ,
+},
+{
+    id:26,
+    ten:"SIÊU BÃO",
+    thoiLuong:15,
+    banner:"netfix/SIÊU BÃO-kinhdi.jpg",
+    trailer:"https://www.youtube.com/embed/PCWBFcrvxtw?si=IojkfVYKnPPd-7HI"  ,
+},
+{
+    id:27,
+    ten:"CÁ MẬP CẠN",
+    thoiLuong:15,
+    banner:"netfix/CÁ MẬP CẠN-kinhdi.jpg",
+    trailer:"https://www.youtube.com/embed/AmP_TWlWm04?si=J8h1p2PjqH1QqpmH" ,
+},
+{
+    id:28,
+    ten:"NGÔI ĐỀN MA QUÁI",
+    thoiLuong:15,
+    banner:"netfix/NGÔI ĐỀN MA QUÁI.jpg",
+    trailer:"https://www.youtube.com/embed/msIkj15bpus?si=ma-G-2lZhIroEknl",
+},
+{
+    id:29,
+    ten:"Đoạt Hồn",
+    thoiLuong:15,
+    banner:"netfix/Đoạt Hồn-kinhdi.jpg",
+    trailer:"https://www.youtube.com/embed/takrce_4Fhw?si=CDTbt8mxZXObcm0v" ,
+},
+{
+    id:30,
+    ten:"TỬ ĐỊA AMAZON",
+    thoiLuong:15,
+    banner:"netfix/TỬ ĐỊA AMAZON-kinhdi.jpg",
+    trailer:"https://www.youtube.com/embed/On7l2PBpThw?si=VbIMICqfvR9lL-95"  ,
 },
 ];
 function xemTrailer(){
     document.getElementsByClassName("banner")[0].style="display:none";
     document.getElementsByClassName("banner")[1].style="display:block";
-    //.src: lấy hoặc thay đổi đường dẫn video của thẻ đó.
-    //"autoplay=1":Yêu cầu video tự động phát khi đường link được cập nhật.
-    //phimDangChon.trailer:Lấy đường link trailer của bộ phim đang được chọn.
-    //phimDangChon.trailer.includes("?") ? "&" : "?":Mục đích là nối tham số vào đường link đúng cú pháp.
-     document.getElementById("videoTrailer").src =
-        phimDangChon.trailer +
-        (phimDangChon.trailer.includes("?") ? "&" : "?") +
-        "autoplay=1";
 }
-var phimDangChon = danhSachPhim[0];
-
-// Chọn phim khi bấm poster
-function chonPhim(id) {
-    //null: ban đầu chưa tìm thấy phim nào.
-    var phimTimThay = null;
-//danhSachPhim[i].id === id: kiểm tra ID của phim hiện tại có bằng ID cần tìm không.
-    // Tìm phim có id tương ứng
-    for (var i = 0; i < danhSachPhim.length; i++) {
-        if (danhSachPhim[i].id === id) {
-            phimTimThay = danhSachPhim[i];
-            break;
+function chonPhim(id){
+            for(let i=0;i<danhSachPhim.length;i++){
+                if(danhSachPhim[i].id==id){
+                    document.getElementsByTagName("img")[2].src=danhSachPhim[i].banner;
+                    document.getElementsByTagName("iframe")[0].src=danhSachPhim[i].trailer;
+                    document.getElementsByClassName("banner")[0].style="display:block";
+                    document.getElementsByClassName("banner")[1].style="display:none";
+                }
+           
+            }
         }
-    }
-
-    // Nếu không tìm thấy phim thì dừng
-    if (phimTimThay === null) {
-        console.log("Không tìm thấy phim có id: " + id);
-        return;
-    }
-
-    // Lưu phim được chọn
-    phimDangChon = phimTimThay;
-
-    // Cập nhật ảnh banner
-    document.getElementById("bannerAnh").src =
-        phimDangChon.banner;
-
-    // Dừng video cũ
-    document.getElementById("videoTrailer").src = "";
-
-    // Hiện banner, ẩn trailer
-    document.getElementById("bannerPhim").style.display = "block";
-    document.getElementById("khungTrailer").style.display = "none";
-}
